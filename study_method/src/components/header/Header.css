@@ -88,6 +88,9 @@ li {
 
 li:hover{
     color: #6458F8;
+    border: 1px solid #6458F8;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 .search_int {

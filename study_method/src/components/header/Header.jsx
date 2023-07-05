@@ -2,7 +2,6 @@ import { useState } from 'react';
 import bookLogo from '../../assets/book.svg';
 import imgNavBar from '../../assets/navBar.svg';
 import './Header.css';
-import Herramientas from '../herramientas/Herramientas'
 
 function Header({ handleClick }) {
   const [ocultar, setOcultar] = useState(false);

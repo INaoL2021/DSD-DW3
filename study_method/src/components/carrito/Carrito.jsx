@@ -16,7 +16,6 @@ function Carrito({ carrito, setCarrito }) {
     }
   }
   
-
   return (
     <>
       <h1 className='title_carrito'>CARRITO DE COMPRAS

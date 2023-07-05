@@ -44,9 +44,7 @@ const data = [
 function App() {
   const [carrito, setCarrito] = useState([]);
   const [expandirTitulo, setExpandirTitulo] = useState(false);
-  
   function addCarrito(title, descripcion, price, img){
-    
     const producto = carrito.find(item => item.title === title);
     if(producto){
       setCarrito(carrito.map(item =>
@@ -61,7 +59,6 @@ function App() {
       ])
     }
   }
-  
   useEffect(() => {
     console.log(carrito)
   }, [carrito])
